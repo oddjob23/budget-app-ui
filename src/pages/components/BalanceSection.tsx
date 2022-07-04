@@ -63,8 +63,4 @@ const BalanceSection = () => {
   );
 };
 
-// <a href="https://www.flaticon.com/free-icons/income" title="income icons">Income icons created by Freepik - Flaticon</a>
-// <a href="https://www.flaticon.com/free-icons/wallet" title="wallet icons">Wallet icons created by Good Ware - Flaticon</a>
-// <a href="https://www.flaticon.com/free-icons/expense" title="expense icons">Expense icons created by surang - Flaticon</a>
-
 export default BalanceSection;
