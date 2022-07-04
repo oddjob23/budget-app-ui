@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <Box>
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
-      <MainContent open={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+      <MainContent />
     </Box>
   );
 };

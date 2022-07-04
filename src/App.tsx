@@ -44,7 +44,7 @@ const getDesignTokens = (mode: PaletteMode) => ({
 });
 
 function App() {
-  const [mode, setMode] = useState<"light" | "dark">("dark");
+  const [mode, setMode] = useState<"light" | "dark">("light");
   const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {

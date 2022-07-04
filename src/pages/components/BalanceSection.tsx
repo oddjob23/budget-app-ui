@@ -1,23 +1,21 @@
-import styled from "@emotion/styled";
-import { Box, Card, CardContent, Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import BalanceItem from "./BalanceItem";
-const StyledCardContent = styled(CardContent)({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-});
+import { Box } from "@mui/system";
+
 const BalanceSection = () => {
   return (
-    <Grid
-      container
-      spacing={12}
-      direction="row"
-      alignItems="center"
-      justifyContent="center"
+    // <Grid container direction="row" alignItems="center">
+    <Box
+      sx={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        gap: "2rem",
+      }}
     >
       <BalanceItem
         icon={
@@ -59,7 +57,9 @@ const BalanceSection = () => {
         title={"Balance"}
         amount={"117.5K"}
       />
-    </Grid>
+    </Box>
+
+    // </Grid>
   );
 };
 

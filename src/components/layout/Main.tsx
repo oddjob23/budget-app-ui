@@ -4,12 +4,10 @@ import { Outlet } from "react-router-dom";
 // import Navbar from "./Navbar";
 
 const drawerWidth = 280;
-const SyledMainContent = styled("div")(({ theme }: any) => {
-  return `
-    height: 100vh;
-  `;
-});
-const MainContent = ({ open, setSidebarOpen }: any) => {
+const SyledMainContent = styled("div")`
+  height: "100vh";
+`;
+const MainContent = () => {
   return (
     <SyledMainContent
       sx={{
