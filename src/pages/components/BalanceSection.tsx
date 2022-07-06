@@ -1,6 +1,8 @@
 import { Grid } from "@mui/material";
 
 import BalanceItem from "./BalanceItem";
+import CardSlider from "./CardSlider";
+import "./dots.css";
 
 const BalanceSection = () => {
   return (
@@ -21,7 +23,7 @@ const BalanceSection = () => {
         </Grid>
       </Grid>
       <Grid item xs={12} md={5}>
-        <h2>test 2</h2>
+        <CardSlider />
       </Grid>
     </Grid>
   );
